@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="BiznesObgectFactory:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/BiznesObgectFactory_jar</output-path>
+    <root id="archive" name="BiznesObgectFactory.jar">
+      <element id="module-output" name="biznes-obgect-factory-box" />
+    </root>
+  </artifact>
+</component>
