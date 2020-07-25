@@ -1,4 +1,4 @@
-package biznesObjectFactoryBox;
+package businessObjectFactoryBox;
 
 import java.io.Serializable;
 

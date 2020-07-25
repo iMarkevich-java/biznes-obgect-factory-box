@@ -1,4 +1,4 @@
-package biznesObjectFactoryBox;
+package businessObjectFactoryBox;
 
 import java.math.BigInteger;
 import java.util.LinkedList;
@@ -7,9 +7,10 @@ import java.util.Objects;
 
 public class StaffDays {
     private BigInteger staffId;
-    private List<Day> listDay = new LinkedList<>();
+    private List<Day> listDay;
 
     public StaffDays() {
+        listDay = new LinkedList<>();
     }
 
     public BigInteger getStaffId() {
@@ -25,14 +26,9 @@ public class StaffDays {
     }
 
     public void setListDay(List<Day> listDay) {
-        List<Day> dayList = new LinkedList<>();
-        for (Day day : listDay) {
-            dayList.add(day);
-        }
+        List<Day> dayList = new LinkedList<>(listDay);
         this.listDay.clear();
-        for (Day day : dayList){
-            this.listDay.add(day);
-        }
+        this.listDay.addAll(dayList);
         listDay.clear();
     }
 

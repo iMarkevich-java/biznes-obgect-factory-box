@@ -1,4 +1,4 @@
-package biznesObjectFactoryBox;
+package businessObjectFactoryBox;
 
 import java.math.BigDecimal;
 import java.math.BigInteger;

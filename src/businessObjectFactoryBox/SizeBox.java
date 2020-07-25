@@ -1,4 +1,4 @@
-package biznesObjectFactoryBox;
+package businessObjectFactoryBox;
 
 public enum SizeBox {
     Maximum("maximum", 100.0, 200.0, 300.0),
