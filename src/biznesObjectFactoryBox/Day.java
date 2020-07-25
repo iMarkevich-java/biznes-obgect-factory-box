@@ -1,4 +1,4 @@
-package biznesObgectFactory;
+package biznesObjectFactoryBox;
 
 import java.math.BigInteger;
 import java.time.LocalDate;

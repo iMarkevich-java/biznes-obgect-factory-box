@@ -1,4 +1,4 @@
-package biznesObgectFactory;
+package biznesObjectFactoryBox;
 
 public enum Position {
     Director("director", 100),

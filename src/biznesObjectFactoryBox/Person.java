@@ -1,4 +1,4 @@
-package biznesObgectFactory;
+package biznesObjectFactoryBox;
 
 public class Person {
     private String firstName;
